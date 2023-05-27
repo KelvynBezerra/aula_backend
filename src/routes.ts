@@ -10,4 +10,5 @@ router.get("/", new UserController().allUsers);
 router.post("/user/url", new UrlController().create);
 router.post("/user/shorturl", new UrlController().findUrlShort);
 
+
 export { router };
